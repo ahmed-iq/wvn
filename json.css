@@ -1,0 +1,52 @@
+body{margin:0;}
+
+
+
+
+
+
+
+
+#cover{ position:fixed; top:0; left:0; background:rgba(0,0,0,0.6); z-index:5; width:100%; height:100%; display:none; }
+   
+ 
+  .cancel { display:block; position:absolute; top:3px; right:2px; background:rgb(245,245,245); color:black; height:30px; width:35px; font-size:30px; text-decoration:none; text-align:center; font-weight:bold; } 
+ #liner-2{height:70px;}
+	 
+	 #like {width:29.1px;float:right;padding-right:29.1px;padding-left:29.1px;}
+	 
+	 .like {width:22.5px;}
+	 
+	 
+	 #down-like  {width:29.1px;float:right;padding-right:29.1px;padding-left:29.1px;}
+	 
+	 .down-like {width:22.5px;}
+	 
+	 
+	 #download {width:29.1px;float:right;padding-right:29.1px;padding-left:29.1px;}
+	 
+	 .download{width:22.5px;}
+	 
+	 
+	 #live {width:30.1px; float:right;padding-right:29.1px;padding-left:29.1px;}
+	 
+	 .live {width:22.5px;}
+	 r {color:#888888;font-size:13px; padding-right:8px;}
+
+   #title-name-1 {width:250px;float:right; padding-right:25px;text-align:right;font-size:16px;word-spacing:1px; text-overflow:clip;}
+
+	 #dg {width:40px;padding-left:30px;padding-bottom:4px;}
+	 .dg{width:14.25px;font-family:Tahoma;}
+  
+
+  #in{padding:8px;}
+.wg {width:43px;border-radius:50%;border:0.1px solid #b9b9b9;}   
+
+ #wg {float:right;height:40px;}
+ #we {width:250px;float:right;text-align:right;padding-right:8px;
+ color:#0b0b0b;font-siez:14px;line-height:20px;
+ }
+
+ #ur {text-align:right;padding-right:40px;font-siez:2px;color:#bababa;clear:both;line-height:15px;}
+	 
+  

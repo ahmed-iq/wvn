@@ -1,0 +1,286 @@
+.no {padding-top:280px;font-size:24px;}
+#jk{height:38px;}
+#c-1,#c-2,#c-3 {float:right;width:109px;text-align:center;padding-top:11px;}
+
+
+#cc-1,#cc-2,#cc-3 {float:right;width:218px;text-align:right;padding-top:11px;}
+
+#cc-3 {width:54.5px;}
+#cc-1 {width:54.5px;text-align:center;}
+
+.wvn_ax {
+    position: relative;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    margin:8px;
+    margin-top:0px;
+    padding:0;
+    height:aotu;
+    padding-right:2px;
+    height:180px;
+}
+
+
+.wvn_ay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-top:4px;
+    padding-bottom:8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.wvn_ay .axy {
+    position: absolute;
+    width: 100%;
+    min-height: 300px;
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+
+.wvn img {
+
+    background: url(0.jpg) no-repeat;
+    margin-top:22px;
+    border-right:8px;
+    margin-right:8px;
+    width:240px;
+    height:135px;
+}
+
+
+
+
+
+
+.wvvn_move{
+	border-radius: 6px;
+	 margin: 4px;
+	 padding:8px;
+	 padding-bottom: 2px;
+}
+
+.wvvn_text{
+	text-align: right;
+	font-size:20px;
+	text-shadow: 0 0 0.01px black;
+	color: #1b1b1b;
+	padding:4px;
+	
+	
+
+}
+
+.more{
+	font-size:19px;
+	color:#ff1744;
+	text-align:right;
+	margin-bottom: 10px;
+	border-top: 1px solid #000;
+    padding-top: 8px;
+	margin-top: 50px;
+	padding-right: 6px;
+}
+
+.tittl{text-align:right;
+       font-size:16px;
+	   margin-top:8px;
+	   
+
+}
+
+img.like {
+    width: 26px;
+    vertical-align: text-top;
+    margin-right: 200px;
+    top:4px;
+}
+
+.liker {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#df{text-align:right; padding:8px;}
+
+
+
+
+
+
+#rt {padding:6px;}
+vb2{text-align:right;width:200px;color:#3d3d3d;}
+#bc {width:330px;height:80px;padding:8px;margin:8px;border-bottom:1px solid #b9b9b9;}
+#f-1,#f-2,#f-3,#f-4,#f-5{float:right;}
+#f-1 {text-align:center;width:96px;font-size:20px}
+#f-2 {width:33px;text-align:center;font-size:32px ;}
+#f-3 {width:66px;text-align:center;font-size:20px}
+#f-4 {width:33px;text-align:center;font-size:32px}
+#f-5 {text-align:center;width:96px;font-size:20px}
+
+#akl{padding:16px;text-align:center;margin-top:32px;color:#666;}
+
+
+
+
+
+#list-2{padding:8px;margin:8px;height:200px;width:328px;background:#fff;border:.25px solid rgba(0, 0, 0, 0.12);border-radius:4px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+	            0 1px 5px 0 rgba(0, 0, 0, 0.12),
+	            0 3px 1px -2px rgba(0, 0, 0, 0.2);margin-top:0;margin-bottom:0;}
+	            
+
+
+#list-3{padding:8px;margin:8px;width:328px;height:200px;background:#fff;border:.25px solid rgba(0, 0, 0, 0.12);border-radius:4px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+	            0 1px 5px 0 rgba(0, 0, 0, 0.12),
+	            0 3px 1px -2px rgba(0, 0, 0, 0.2);margin-top:0;margin-bottom:8px;}
+	            
+
+
+
+
+#list{padding:8px;margin:8px;height:90px;width:328px;background:#fff;border:.25px solid rgba(0, 0, 0, 0.12);border-radius:4px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+	            0 1px 5px 0 rgba(0, 0, 0, 0.12),
+	            0 3px 1px -2px rgba(0, 0, 0, 0.2);margin-top:0;margin-bottom:0;}
+	            
+	            #a {height:90px;background:#fff;float:right;}
+	             #b {height:90px;width:89px;background:#fff;border-right:1px solid rgba(0, 0, 0, 0.18);}
+	            #tame,#tame-2{width:228px;height:30px;background:#fff;padding-top:15px;text-align:right;padding-right:8px;font-size:16px;color:#666;}
+	            
+	            
+	            #sf {width:200px;float:right;}
+	            #sn{width:20px;}
+	            #dat,#dat-2{height:30px;background:#fff;padding-bottom:7.5px;}
+	            #dat {font-size:10px;color:#4d4d4d;padding-right:8px;text-align:right;padding-top:15px;}
+	            #dat-2 {font-size:12px;color:#3d3d3d;padding-right:8px;text-align:right;}
+
+
+
+
+
+
+
+html, body {
+  width: 100%;margin:0;
+}
+
+h1 {
+  font-size: 2px;
+  background: #1d9647;
+  height:0px;
+  color: white;
+  height:0px;
+  padding: 0;
+  width:323.5px;
+
+  
+}
+
+label, p, a, h1, div {
+  font-family: Roboto, sans-serif;
+}
+
+.tab-wrap {
+  width: 50%;
+  margin-left: 20%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -100px;
+}
+
+input[type="radio"][name="tabs"] {
+  position: absolute;
+  z-index: -1;
+}
+input[type="radio"][name="tabs"]:checked + .tab-label-content label {
+  color: white;
+}
+input[type="radio"][name="tabs"]:checked + .tab-label-content .tab-content {
+  display: block;
+}
+input[type="radio"][name="tabs"]:nth-of-type(1):checked ~ .slide {
+  left: calc((100% / 4) * 0);
+}
+input[type="radio"][name="tabs"]:nth-of-type(2):checked ~ .slide {
+  left: calc((100% / 4) * 1);
+}
+input[type="radio"][name="tabs"]:nth-of-type(3):checked ~ .slide {
+  left: calc((100% / 4) * 2);
+}
+input[type="radio"][name="tabs"]:nth-of-type(4):checked ~ .slide {
+  left: calc((100% / 4) * 3);
+}
+input[type="radio"][name="tabs"]:first-of-type:checked ~ .slide {
+  left: 0;
+}
+
+label {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #1d9647;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 50px;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  width:99%;
+  
+
+
+}
+
+.slide {
+  background: #fff;
+  width: calc(100% / 4);
+  height: 3px;
+  position: absolute;
+  left: 0;
+  top: calc(100% - 3px);
+  -webkit-transition: left 0.3s ease-out;
+  transition: left 0.3s ease-out;
+}
+
+.tab-label-content {
+  width: 100%;
+}
+.tab-label-content .tab-content {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  line-height: 130%;
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {padding: 30px 0 50px 10%;margin:0px;
+    
+  }
+
+  .tab-wrap {
+    width: 100%;
+    margin-left: 0;
+    top:-50px;
+  }
+}

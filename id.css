@@ -1,0 +1,98 @@
+
+ .cs{background:#000;}
+
+#v-1 ,#v-2 ,#v-3 ,#v-4 ,#v-5 ,#v-6 ,#v-7 ,#v-8 ,#v-9,#v-10 ,#v-11 ,#v-12 ,#v-13 ,#v-14 ,#v-15 ,#v-16 ,#v-17,#v-18 ,#v-19 ,#v-20,#v-21 ,#v-22 ,#v-23 ,#v-24 ,#v-25,#v-26 ,#v-27,#v-28 ,#v-29 ,#v-30 ,#v-31 ,#v-32 ,#v-33,#no{ position: fixed; top:0; left:0; height:100%; width:100%; margin:0 auto; z-index:99; display:none;	background:#fff;} 
+
+
+
+  #no:target, #no:target + #cover{ display:block; opacity:2; }
+
+  #v-1:target, #v-1:target + #cover{ display:block; opacity:2; }
+ 
+  #v-2:target, #v-2:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-3:target, #v-3:target + #cover{ display:block; opacity:2; } 
+ 
+ 
+
+#v-4:target, #v-4:target + #cover{ display:block; opacity:2; }
+ 
+  #v-5:target, #v-5:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-6:target, #v-6:target + #cover{ display:block; opacity:2; } 
+  
+   #v-7:target, #v-7:target + #cover{ display:block; opacity:2; }
+ 
+  #v-8:target, #v-8:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-9:target, #v-9:target + #cover{ display:block; opacity:2; } 
+ 
+ 
+
+#v-10:target, #v-10:target + #cover{ display:block; opacity:2; }
+ 
+  #v-11:target, #v-11:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-12:target, #v-12:target + #cover{ display:block; opacity:2; } 
+  
+ 
+#v-13:target, #v-13:target + #cover{ display:block; opacity:2; }
+ 
+  #v-14:target, #v-14:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-15:target, #v-15:target + #cover{ display:block; opacity:2; } 
+  
+
+#v-16:target, #v-16:target + #cover{ display:block; opacity:2; }
+ 
+  #v-17:target, #v-17:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-18:target, #v-18:target + #cover{ display:block; opacity:2; } 
+
+
+#v-19:target, #v-19:target + #cover{ display:block; opacity:2; }
+ 
+  #v-20:target, #v-20:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-21:target, #v-21:target + #cover{ display:block; opacity:2; } 
+  
+ 
+#v-22:target, #v-22:target + #cover{ display:block; opacity:2; }
+ 
+  #v-23:target, #v-23:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-24:target, #v-24:target + #cover{ display:block; opacity:2; } 
+ 
+
+
+#v-25:target, #v-25:target + #cover{ display:block; opacity:2; }
+ 
+  #v-26:target, #v-26:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-27:target, #v-27:target + #cover{ display:block; opacity:2; } 
+
+
+
+#v-28:target, #v-28:target + #cover{ display:block; opacity:2; }
+ 
+  #v-29:target, #v-29:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-30:target, #v-30:target + #cover{ display:block; opacity:2; } 
+
+
+#v-31:target, #v-31:target + #cover{ display:block; opacity:2; }
+ 
+  #v-32:target, #v-32:target + #cover{ display:block; opacity:2; } 
+  
+  
+  #v-33:target, #v-33:target + #cover{ display:block; opacity:2; } 
