@@ -1,0 +1,486 @@
+<!DOCTYPE html><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta charset="UTF-8"><meta name="theme-color" content="#1d9647"><title>Material Design CSS Only Tabs</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/material.css"><link rel="stylesheet" href="css/json.css"><link rel="stylesheet" href="css/id.css"><script src="angular.min.js"></script></script>
+<script src="js/data-football.js"></script>
+
+</script>
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script><script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCjC5StmV30Q_EQC7ydG-ndzotbMPCHa_Y",
+    authDomain: "wvn-football.firebaseapp.com",
+    databaseURL: "https://wvn-football.firebaseio.com",
+    projectId: "wvn-football",
+    storageBucket: "wvn-football.appspot.com",
+    messagingSenderId: "315520650590"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+</head>
+
+
+
+
+<body><h1></h1>
+<div class="tab-wrap">
+  
+    <input type="radio" name="tabs" id="tab1" checked>
+    <div class="tab-label-content" id="tab1-content">
+      <label for="tab1">المباريات</label>
+      <div class="tab-content">
+
+<div ng-app="wvn" ng-controller="titles">
+<div ng-repeat="wvn in home">
+<a  href="#v-{{wvn.id}}">
+<div id= "list">
+
+<div id="a">
+
+<div  id="tame">
+<div id="sf">{{wvn.team}}</div>
+<div id="sn">{{wvn.result}}</div>
+</div>
+
+<div id="tame-2">
+<div id="sf">{{wvn.team2}}</div>
+<div id="sn">{{wvn.result2}}</div>
+</div>
+ 
+</div>
+
+<div id="b">
+<div  id="dat">
+
+<day>{{wvn.day}}</day>
+<data>{{wvn.data}}</data>
+
+</div>
+
+<div  id="dat-2">
+ {{wvn.time}}
+</div>
+
+</div >
+
+</div>
+</a>
+
+
+
+
+  <div id="v-{{wvn.id}}">
+  <div id="rt">
+  <vb2>نهاية المباراة</vb2>
+  </div>
+  
+ <div id="bc">
+ <div id="lire">
+ <div id="f-1">{{wvn.team}}</div>
+ <div id="f-2">{{wvn.result}}</div>
+ <div id="f-3">-</div>
+ <div id="f-4">{{wvn.result2}}</div>
+ <div id="f-5">{{wvn.team2}}</div>
+ </div>
+ <div id="akl">مرحلة المجموعات</div>
+ </div>
+ 
+ 
+ 
+<div class="wvn_ax">
+
+  
+<div class="wvn_ay">
+   
+<div class="axy wvn_xy" >       
+
+
+<a  class="wvn"><img src="{{wvn.img}}"></a>
+
+<a  class="wvn"><img src="{{wvn.img1}}"></a>
+
+
+<a  class="wvn"><img src="{{wvn.img2}}"></a>
+
+<a  class="wvn"><img src="{{wvn.img3}}"></a>
+
+<a  class="wvn"><img src="{{wvn.img4}}"></a>
+
+<a  class="wvn"><img src="{{wvn.img5}}"></a>
+
+<a  class="wvn"><img src="{{wvn.img6}}"></a>
+
+
+</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+	
+	<div id= "list-2">
+	
+	<div id="jk">
+	<div id="c-1">{{wvn.a}}</div>
+	<div id="c-2">الضربات الركنية</div>
+	<div id="c-3">{{wvn.a2}}</div>
+	</div>
+	
+	<div id="jk">
+	<div id="c-1">{{wvn.b}}</div>
+	<div id="c-2">ضربات الزاوية</div>
+	<div id="c-3">{{wvn.b2}}</div>
+	</div>
+	
+	<div id="jk">
+	<div id="c-1">{{wvn.c}}</div>
+	<div id="c-2">البطاقات الحمراء</div>
+	<div id="c-3">{{wvn.c2}}</div>
+	</div>
+	
+	<div id="jk">
+	<div id="c-1">{{wvn.d}}</div>
+	<div id="c-2">البطاقات الصفراء</div>
+	<div id="c-3">{{wvn.d2}}</div>
+	</div>
+	
+	<div id="jk">
+	<div id="c-1">{{wvn.e}}</div>
+	<div id="c-2">التبديلات</div>
+	<div id="c-3">{{wvn.e2	}}</div>
+	</div>
+	
+
+	</div>
+	
+	
+	
+
+	
+   <a href="#" class="cancel">×</a> </div>
+  <div id="cover" > </div>
+  </div>
+</div>
+
+
+<div id="no">
+<center class="no">
+                      لايتوفر بيانات عن هذة المباراة حاليا
+                      </center>
+<a href="#" class="cancel">×</a> 
+  <div id="cover" > </div>
+  </div>
+
+
+
+
+
+  </div>
+    </div>
+     
+    <input type="radio" name="tabs" id="tab2">
+    <div class="tab-label-content" id="tab2-content">
+      <label for="tab2">أحصائيات</label>
+        <div class="tab-content">
+        
+        
+    <div ng-app="wvn" ng-controller="titles">
+
+<div ng-repeat="wvn in home">
+
+<div id="df">الهدافين</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">{{wvn.id}}</div>
+	<div id="cc-3">4</div>
+	</div>
+	
+	<div id="jk-">
+	<div id="cc-1">2</div>
+	<div id="cc-2">كرار محمد علي محمد</div>
+	<div id="cc-3">4</div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">جاسم محمد عبد الله </div>
+	<div id="cc-3">4</div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">4</div>
+	<div id="cc-2">عبد الوهاب محمد علي خالد</div>
+	<div id="cc-3">4</div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">5</div>
+	<div id="cc-2">زهير مجبل حسن خلف تبارك</div>
+	<div id="cc-3">4</div>
+	</div>
+	
+
+	</div>
+
+
+
+</div>
+</div>
+
+
+	</div>
+    </div>
+    
+    <input type="radio" name="tabs" id="tab3">
+    <div class="tab-label-content" id="tab3-content">
+      <label for="tab3">الترتيب</label>
+      <div class="tab-content">
+      
+      <div id="df">المجموعة الأولى</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">سنحاريب</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">جميلة</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">شباب سفلى</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+
+<div id="df">المجموعة الثانية</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">سفلى</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">الشرقية</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">شباب وسطى</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+<div id="df">المجموعة الثالثة</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">المشهد</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">عليلة</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">الأتحاد</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+<div id="df">المجموعة الرابعة</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">السفينة</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">الصحن</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">شباب المشهد</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+<div id="df">المجموعة الخامسة</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">صبيح</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">التفات</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">الهطور</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+
+<div id="df">المجموعة السادسة</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">الفهد</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">طق طق</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">شباب الفياض</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+
+
+
+<div id="df">المجموعة السابعة</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">وسطى</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">شاطئ الجدر</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">تل محمد</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+
+<div id="df">المجموعة الثامنة</div>
+      <div id= "list-3">
+	<div id="jk">
+	<div id="cc-1">1</div>
+	<div id="cc-2">الفياض</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">2</div>
+	<div id="cc-2">عويجيلة</div>
+	<div id="cc-3"></div>
+	</div>
+	
+	<div id="jk">
+	<div id="cc-1">3</div>
+	<div id="cc-2">شباب الفهد</div>
+	<div id="cc-3"></div>
+	</div>
+	
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    </div>
+  
+     <input type="radio" name="tabs" id="tab4">
+     <div class="tab-label-content" id="tab4-content">
+      <label for="tab4">الرئيسية</label>
+      <div class="tab-content">
+      
+       
+      
+      </div>
+    </div>
+    
+    <div class="slide"></div>
+  
+</div>
+
+
+</body>
+</html>
