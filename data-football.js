@@ -16,7 +16,7 @@ angular.module('wvn', []).controller('titles', function($scope) {
         ,time:'م2.00'
 
        ,team:'فريق شباب الفياض'
-       ,result:'0'
+       ,result:'33'
        ,a:'0' //الضربات الركنية
        ,b:'0'//ضربات الزاوية
        ,c:'0'//البطاقات الحمراء
